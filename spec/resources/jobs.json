@@ -1,0 +1,40 @@
+{
+   "assignedLabels":[
+      {
+
+      }
+   ],
+   "mode":"NORMAL",
+   "nodeDescription":"the master Jenkins node",
+   "nodeName":"",
+   "numExecutors":4,
+   "description":"",
+   "jobs":[
+      {
+         "name":"failed_job",
+         "url":"http://jenkins.dev/job/failed_job/",
+         "color":"red"
+      },
+      {
+         "name":"success_job",
+         "url":"http://jenkins.dev/job/success_job/",
+         "color":"blue"
+      }
+   ],
+   "overallLoad":{
+
+   },
+   "primaryView":{
+      "name":"All",
+      "url":"http://jenkins.dev/"
+   },
+   "quietingDown":false,
+   "slaveAgentPort":0,
+   "unlabeledLoad":{
+
+   },
+   "useCrumbs":false,
+   "useSecurity":true,
+   "views":[
+   ]
+}
