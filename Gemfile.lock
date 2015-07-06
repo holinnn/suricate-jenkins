@@ -1,0 +1,61 @@
+PATH
+  remote: .
+  specs:
+    suricate-jenkins (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (5.0.0)
+      columnize (= 0.9.0)
+    codeclimate-test-reporter (0.4.7)
+      simplecov (>= 0.7.1, < 1.0.0)
+    columnize (0.9.0)
+    diff-lcs (1.2.5)
+    docile (1.1.5)
+    json (1.8.3)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rake (10.4.2)
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.1)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-mocks (3.3.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-support (3.3.0)
+    simplecov (0.10.0)
+      docile (~> 1.1.0)
+      json (~> 1.8)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    suricate (0.0.2)
+      sinatra (~> 1.4)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.7)
+  byebug (~> 5.0)
+  codeclimate-test-reporter (~> 0.4.7)
+  rake (~> 10.4)
+  rspec (~> 3.3)
+  simplecov (~> 0.10.0)
+  suricate (>= 0.0.1)
+  suricate-jenkins!
+
+BUNDLED WITH
+   1.10.5
