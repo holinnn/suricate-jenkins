@@ -54,8 +54,5 @@ DEPENDENCIES
   rake (~> 10.4)
   rspec (~> 3.3)
   simplecov (~> 0.10.0)
-  suricate (>= 0.0.3)
+  suricate (~> 0.0)
   suricate-jenkins!
-
-BUNDLED WITH
-   1.10.5
